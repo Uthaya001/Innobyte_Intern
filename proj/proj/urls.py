@@ -21,6 +21,7 @@ from .import views
 
 
 router=DefaultRouter()
+
 router.register(r'login',views.loginview,'login')
 urlpatterns = [
     path('api',include(router.urls)),
