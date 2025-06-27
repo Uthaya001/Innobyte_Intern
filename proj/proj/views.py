@@ -5,3 +5,4 @@ class loginview(viewsets.ModelViewSet):
     queryset=login.objects.all()
     serializer_class=loginSerializer
 
+
